@@ -1,18 +1,4 @@
-console.log('Hello')
-const a = 10
-const b = 10.5
-const c = 'maria'
-const d = 'a'
-const e = false
-const f = {name: 'maria', age: 25}
-const g = ['a', 15, 'false', 'maria']
-const h = null
-const i = undefined
-console.log(typeof a)
-console.log(typeof b)
-console.log(typeof c)
-console.log(typeof d)
-console.log(typeof e)
-console.log(typeof f)
-console.log(typeof g)
-console.log(typeof h)
+for (let i = 0; i < 5; i++){
+    console.log(1);//DECLARADA DENTRO DO ESCOPO
+}
+console.log(1); //
