@@ -11,7 +11,7 @@ const Product = function(name, price, quantity){
     this.name = name;
     this.price = price;
     this.quantity =  quantity;
-    //se pode colocar uma função dentro do construtor | mesmo que se repita o nome da função, a prioridade é da função interna do objeto produto/product 
+    //se pode colocar uma função dentro do construtor | mesmo que se repita o nome da função, a prioridade é da função interna do objeto produto/product +
     Product.prototype.label = function(){
         return `Dados: (Função interna) ${this.name}, ${this.price.toFixed(2)}`
     }
