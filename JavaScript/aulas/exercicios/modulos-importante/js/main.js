@@ -1,4 +1,9 @@
-import * as nb from './numbers.js';//Eu importei todos os elementos do modulo numbers e dei o apelido de nb 
-const x = nb.sum(3, 4);
+import {sum, round} from './numbers.js';//Importação usando desestruturação de objetos
+import Product from './product.js';//O nome da importação de uma exportação padrão não precisa ser o msm, neste caso Product! eu poderia colocar por exemplo - "Prod"
 
-console.log(x);
+console.log(sum(3, 4));
+
+console.log(round(3.2345, 2));
+const obj = new Product("Computador", 800.0, 10);//Eu deveria mudar para Prod na instancia tbm
+
+console.log(obj); 
