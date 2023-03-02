@@ -6,7 +6,7 @@ class Product {
         this.price = price;
         this.quantity = quantity;
     }
-    //métodos vão para o prototype
+    //métodos vão para o prototype 
     total(){
         return this.price * this.quantity;
     }
