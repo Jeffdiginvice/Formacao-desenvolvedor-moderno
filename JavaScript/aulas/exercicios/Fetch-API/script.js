@@ -1,7 +1,7 @@
 //API é um nome generico para qualquer conjuto de métodos ou funções que são disponibilizadas para vc por algum sistema ou por alguma biblioteca 
 const cep = '01001000';
 
-const fetcheResult =  fetch(`https://viacep.com.br/ws/${cep}/json/`)/*quando se chama uma função FETCH o retorno dela é uma promise e o retorno dela é assicrona*/ //ESTOU CHAMANDO A FETCH API
+const fetcheResult =  fetch(`https://viacep.com.br/ws/${cep}/json/`)/*FETCH por padrão faz um get/URL. quando se chama uma função FETCH o retorno dela é uma promise e o retorno dela é assicrona*/ //ESTOU CHAMANDO A FETCH API
 
  fetcheResult//O RESULTADO DA REQUISIÇÃO
      .then(response => {
@@ -18,5 +18,5 @@ const fetcheResult =  fetch(`https://viacep.com.br/ws/${cep}/json/`)/*quando se 
     console.log("ERRO NO FETCH", error)
  });
 
- console.log("A");
- console.log("B"); //COMPROVAR QUE É ASSICRONO
+ console.log("A"); 
+ console.log("B"); // COMPROVAR QUE É ASSICRONO
